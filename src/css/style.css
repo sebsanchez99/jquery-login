@@ -18,7 +18,7 @@ main {
 .title-container {
     display: flex;
     width: 500px;
-    gap: 180px;
+    gap: 120px;
     padding: 10px;
     margin-bottom: 20px;
     justify-content: start;
@@ -32,4 +32,35 @@ main {
     cursor: pointer;
 }
 /* Fin estilos de contenedor de título */
+
+/* Inicio estilos de contenedor de login */
+.login-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.login-container input {
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.loginbutton-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-container button {
+    padding: 7px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* Fin estilos de contenedor de login */
 
