@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Inicio estilos de sección principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+/* Fin estilos de sección principal */
+
+/* Inicio estilos de contenedor de título */
+.title-container {
+    display: flex;
+    width: 500px;
+    gap: 180px;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: start;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.title-container i{
+    font-size: 25px;
+    cursor: pointer;
+}
+/* Fin estilos de contenedor de título */
+
