@@ -28,7 +28,7 @@ main {
     margin-bottom: 20px;
     justify-content: start;
     align-items: center;
-    border: 2px solid black;
+    border: none;
     border-radius: 15px;
     background-color: #d5bdaf;
     color: #fff;
@@ -52,7 +52,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    border: 2px solid black;
+    border: none;
     border-radius: 15px;
     background-color: #d5bdaf;
     color: #fff;
@@ -60,7 +60,7 @@ main {
 
 .login-container input {
     margin-bottom: 30px;
-    border: 2px solid black;
+    border: none;
     border-radius: 5px;
     padding: 7px;
 }
@@ -79,6 +79,7 @@ main {
     background-color: #d4a678;
     color: #fff;
     cursor: pointer;
+    border: none;
 }
 /* Fin estilos de contenedor de login */
 
