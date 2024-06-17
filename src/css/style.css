@@ -3,6 +3,11 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f5ebe0;
 }
 
 /* Inicio estilos de sección principal */
@@ -23,13 +28,21 @@ main {
     margin-bottom: 20px;
     justify-content: start;
     align-items: center;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 15px;
+    background-color: #d5bdaf;
+    color: #fff;
 }
 
 .title-container i{
-    font-size: 25px;
+    font-size: 28px;
     cursor: pointer;
+    color: #d29252;
+}
+
+.login-container label{
+    font-size: 15px;
+    font-weight: 400;
 }
 /* Fin estilos de contenedor de título */
 
@@ -39,8 +52,10 @@ main {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 15px;
+    background-color: #d5bdaf;
+    color: #fff;
 }
 
 .login-container input {
@@ -57,10 +72,13 @@ main {
 
 .login-container button {
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 250px;
     font-size: 15px;
     font-weight: 600;
+    background-color: #d4a678;
+    color: #fff;
+    cursor: pointer;
 }
 /* Fin estilos de contenedor de login */
 
